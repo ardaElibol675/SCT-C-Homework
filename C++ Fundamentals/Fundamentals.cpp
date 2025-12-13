@@ -92,6 +92,7 @@ int main() {
     cout << left << setw(25) << "New x:" << x << endl;
     cout << setfill('-') << setw(45) << "" << endl << setfill(' ');
 
+    // List, Stack and Queue
     cout << endl << "List, Stack and Queue" << endl << setfill('-') << setw(45) << "" << endl << setfill(' ');
     list<int> lst{1, 5, 3};
     lst.push_front(6); // new list {6, 1, 5, 3}
